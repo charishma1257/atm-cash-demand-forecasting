@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_53aa69b80fe06ed885395e10cbdff2f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_53aa69b80fe06ed885395e10cbdff2f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_53aa69b80fe06ed885395e10cbdff2f1 = L.map(
+                "map_53aa69b80fe06ed885395e10cbdff2f1",
+                {
+                    center: [21.14500395, 79.0755084],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b86d31227c2097a10491440c0b55d69b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b86d31227c2097a10491440c0b55d69b.addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var marker_ce317e3148dcba7e2fa23e0fb588a56e = L.marker(
+                [21.146637, 79.08535],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_5d1854a527ba7a03f012f846374ca4b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54d9da1d36af09ae8924f10312e74991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_284e4659e33b2308f7a5dafda2355056 = $(`<div id="html_284e4659e33b2308f7a5dafda2355056" style="width: 100.0%; height: 100.0%;">Stop 1<br>atm350000</div>`)[0];
+                popup_54d9da1d36af09ae8924f10312e74991.setContent(html_284e4659e33b2308f7a5dafda2355056);
+            
+        
+
+        marker_ce317e3148dcba7e2fa23e0fb588a56e.bindPopup(popup_54d9da1d36af09ae8924f10312e74991)
+        ;
+
+        
+    
+    
+            marker_ce317e3148dcba7e2fa23e0fb588a56e.bindTooltip(
+                `<div>
+                     1. ALİAĞA BAĞLI ŞB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce317e3148dcba7e2fa23e0fb588a56e.setIcon(icon_5d1854a527ba7a03f012f846374ca4b4);
+            
+    
+            var marker_3c9d47fc5498b636e1cb2bb0e4963ef2 = L.marker(
+                [21.148757, 79.101439],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_ae7bdd4c39aaa1ebfd12f27674f56d9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0af87261cb94f122ee5a91cfa8a3dbdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a6875bcad3eac23bedb8853f0dafb38 = $(`<div id="html_3a6875bcad3eac23bedb8853f0dafb38" style="width: 100.0%; height: 100.0%;">Stop 2<br>atm350009</div>`)[0];
+                popup_0af87261cb94f122ee5a91cfa8a3dbdc.setContent(html_3a6875bcad3eac23bedb8853f0dafb38);
+            
+        
+
+        marker_3c9d47fc5498b636e1cb2bb0e4963ef2.bindPopup(popup_0af87261cb94f122ee5a91cfa8a3dbdc)
+        ;
+
+        
+    
+    
+            marker_3c9d47fc5498b636e1cb2bb0e4963ef2.bindTooltip(
+                `<div>
+                     2. VİKİNG KAĞIT ALİAĞA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c9d47fc5498b636e1cb2bb0e4963ef2.setIcon(icon_ae7bdd4c39aaa1ebfd12f27674f56d9b);
+            
+    
+            var marker_fb25f6435685e0f5b9d07a2f12ccae90 = L.marker(
+                [21.174523, 79.121336],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_301265cb21fd93f1f89e033514ce49b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3eef4c5d87570951e0ffaef134d9de97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ce8ffd3a266c4f2fa348cd1faf809d5 = $(`<div id="html_4ce8ffd3a266c4f2fa348cd1faf809d5" style="width: 100.0%; height: 100.0%;">Stop 3<br>atm350008</div>`)[0];
+                popup_3eef4c5d87570951e0ffaef134d9de97.setContent(html_4ce8ffd3a266c4f2fa348cd1faf809d5);
+            
+        
+
+        marker_fb25f6435685e0f5b9d07a2f12ccae90.bindPopup(popup_3eef4c5d87570951e0ffaef134d9de97)
+        ;
+
+        
+    
+    
+            marker_fb25f6435685e0f5b9d07a2f12ccae90.bindTooltip(
+                `<div>
+                     3. STAR RAFİNERİ ALİAĞA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fb25f6435685e0f5b9d07a2f12ccae90.setIcon(icon_301265cb21fd93f1f89e033514ce49b3);
+            
+    
+            var marker_ed7d1ba143f883173ea6d32356963a5e = L.marker(
+                [21.181399, 79.10297],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_2043b78c55a59f617eb83189b1f73d84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1cb3b3abfc1a9cc284bb2fa66e913375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_610f40aa797bce3bcc6d27bff7785364 = $(`<div id="html_610f40aa797bce3bcc6d27bff7785364" style="width: 100.0%; height: 100.0%;">Stop 4<br>atm350007</div>`)[0];
+                popup_1cb3b3abfc1a9cc284bb2fa66e913375.setContent(html_610f40aa797bce3bcc6d27bff7785364);
+            
+        
+
+        marker_ed7d1ba143f883173ea6d32356963a5e.bindPopup(popup_1cb3b3abfc1a9cc284bb2fa66e913375)
+        ;
+
+        
+    
+    
+            marker_ed7d1ba143f883173ea6d32356963a5e.bindTooltip(
+                `<div>
+                     4. ALİAĞA TELEKOM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed7d1ba143f883173ea6d32356963a5e.setIcon(icon_2043b78c55a59f617eb83189b1f73d84);
+            
+    
+            var marker_7f32ae9a37a28ef0df4c8a392405d324 = L.marker(
+                [21.169819, 79.08406],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_402be4b6b0b09af1bfea4062677d3aff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05d469b57dc7cbeec3032a5b6a4ffa32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15e46a935ea19990c991a53461df22e4 = $(`<div id="html_15e46a935ea19990c991a53461df22e4" style="width: 100.0%; height: 100.0%;">Stop 5<br>atm350002</div>`)[0];
+                popup_05d469b57dc7cbeec3032a5b6a4ffa32.setContent(html_15e46a935ea19990c991a53461df22e4);
+            
+        
+
+        marker_7f32ae9a37a28ef0df4c8a392405d324.bindPopup(popup_05d469b57dc7cbeec3032a5b6a4ffa32)
+        ;
+
+        
+    
+    
+            marker_7f32ae9a37a28ef0df4c8a392405d324.bindTooltip(
+                `<div>
+                     5. ALİAĞA PAZARYERİ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7f32ae9a37a28ef0df4c8a392405d324.setIcon(icon_402be4b6b0b09af1bfea4062677d3aff);
+            
+    
+            var marker_676d63b44c85bb394a7c2fef9478fa4f = L.marker(
+                [21.15315, 79.070339],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_63d63f76bc46ae84ae91d1120acda7df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd3917d1f12cddbfdda45dba1b441c1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecc917efce20ed48c3f598b94dc0b8dd = $(`<div id="html_ecc917efce20ed48c3f598b94dc0b8dd" style="width: 100.0%; height: 100.0%;">Stop 6<br>atm350001</div>`)[0];
+                popup_dd3917d1f12cddbfdda45dba1b441c1d.setContent(html_ecc917efce20ed48c3f598b94dc0b8dd);
+            
+        
+
+        marker_676d63b44c85bb394a7c2fef9478fa4f.bindPopup(popup_dd3917d1f12cddbfdda45dba1b441c1d)
+        ;
+
+        
+    
+    
+            marker_676d63b44c85bb394a7c2fef9478fa4f.bindTooltip(
+                `<div>
+                     6. ALİAĞA İSTİKLAL CADDESİ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_676d63b44c85bb394a7c2fef9478fa4f.setIcon(icon_63d63f76bc46ae84ae91d1120acda7df);
+            
+    
+            var marker_6201db2cca9ebd682756f4c71a652aae = L.marker(
+                [21.107012, 78.978532],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_0e213fe53c63c796f0022297424e64d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d6e6415ab5a323d73ccbf112ed668b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1d63b2385806c046c3e835fc69e516b = $(`<div id="html_e1d63b2385806c046c3e835fc69e516b" style="width: 100.0%; height: 100.0%;">Stop 7<br>atm350005</div>`)[0];
+                popup_9d6e6415ab5a323d73ccbf112ed668b1.setContent(html_e1d63b2385806c046c3e835fc69e516b);
+            
+        
+
+        marker_6201db2cca9ebd682756f4c71a652aae.bindPopup(popup_9d6e6415ab5a323d73ccbf112ed668b1)
+        ;
+
+        
+    
+    
+            marker_6201db2cca9ebd682756f4c71a652aae.bindTooltip(
+                `<div>
+                     7. ALİAĞA ŞUBE-2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6201db2cca9ebd682756f4c71a652aae.setIcon(icon_0e213fe53c63c796f0022297424e64d8);
+            
+    
+            var marker_bf0625d75d52f736988beb2f64e5a309 = L.marker(
+                [21.118532, 79.044679],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_8fd6931721a582c4718998275fe7da45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67f3995ce9a60f579eb74baec47ffee3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee126953d0082b0a5690ba53724c51de = $(`<div id="html_ee126953d0082b0a5690ba53724c51de" style="width: 100.0%; height: 100.0%;">Stop 8<br>atm350004</div>`)[0];
+                popup_67f3995ce9a60f579eb74baec47ffee3.setContent(html_ee126953d0082b0a5690ba53724c51de);
+            
+        
+
+        marker_bf0625d75d52f736988beb2f64e5a309.bindPopup(popup_67f3995ce9a60f579eb74baec47ffee3)
+        ;
+
+        
+    
+    
+            marker_bf0625d75d52f736988beb2f64e5a309.bindTooltip(
+                `<div>
+                     8. ALİAĞA ŞUBE-1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bf0625d75d52f736988beb2f64e5a309.setIcon(icon_8fd6931721a582c4718998275fe7da45);
+            
+    
+            var marker_d186668a9f33d99646be9e0d1581d7d6 = L.marker(
+                [21.110153, 79.059822],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_ed5e167c3dbfcfd6543f156067873ebc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9468c04ea043078545af6adef3c22c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbe3a60690056a288a1d5f58aeb501ca = $(`<div id="html_bbe3a60690056a288a1d5f58aeb501ca" style="width: 100.0%; height: 100.0%;">Stop 9<br>atm350003</div>`)[0];
+                popup_a9468c04ea043078545af6adef3c22c0.setContent(html_bbe3a60690056a288a1d5f58aeb501ca);
+            
+        
+
+        marker_d186668a9f33d99646be9e0d1581d7d6.bindPopup(popup_a9468c04ea043078545af6adef3c22c0)
+        ;
+
+        
+    
+    
+            marker_d186668a9f33d99646be9e0d1581d7d6.bindTooltip(
+                `<div>
+                     9. ALİAĞA SAHİL PARKI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d186668a9f33d99646be9e0d1581d7d6.setIcon(icon_ed5e167c3dbfcfd6543f156067873ebc);
+            
+    
+            var marker_730d9cae8b39bd66bbc43f888d7aa4cc = L.marker(
+                [21.126959, 79.063593],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_2e5b5363314db28e66c2b27f7c2c3f7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cec7b8f3d2d51f7e03e00ff2d19a11c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3db44b9acd955a0a64bf3f9d2e7783b = $(`<div id="html_a3db44b9acd955a0a64bf3f9d2e7783b" style="width: 100.0%; height: 100.0%;">Stop 10<br>atm350006</div>`)[0];
+                popup_cec7b8f3d2d51f7e03e00ff2d19a11c0.setContent(html_a3db44b9acd955a0a64bf3f9d2e7783b);
+            
+        
+
+        marker_730d9cae8b39bd66bbc43f888d7aa4cc.bindPopup(popup_cec7b8f3d2d51f7e03e00ff2d19a11c0)
+        ;
+
+        
+    
+    
+            marker_730d9cae8b39bd66bbc43f888d7aa4cc.bindTooltip(
+                `<div>
+                     10. ALİAĞA ŞUBE-3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_730d9cae8b39bd66bbc43f888d7aa4cc.setIcon(icon_2e5b5363314db28e66c2b27f7c2c3f7b);
+            
+    
+            var marker_5db11a22e870c68b45db766869238bb1 = L.marker(
+                [21.146637, 79.08535],
+                {
+}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+    
+            var icon_2b7e5d750b9d3da5b6d168f42b53d231 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc3a2ec960e74f212b0576d8a6343d6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cf6d5f2038e443079307d029dfa096a = $(`<div id="html_2cf6d5f2038e443079307d029dfa096a" style="width: 100.0%; height: 100.0%;">Stop 11<br>atm350000</div>`)[0];
+                popup_cc3a2ec960e74f212b0576d8a6343d6e.setContent(html_2cf6d5f2038e443079307d029dfa096a);
+            
+        
+
+        marker_5db11a22e870c68b45db766869238bb1.bindPopup(popup_cc3a2ec960e74f212b0576d8a6343d6e)
+        ;
+
+        
+    
+    
+            marker_5db11a22e870c68b45db766869238bb1.bindTooltip(
+                `<div>
+                     11. ALİAĞA BAĞLI ŞB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5db11a22e870c68b45db766869238bb1.setIcon(icon_2b7e5d750b9d3da5b6d168f42b53d231);
+            
+    
+            var poly_line_fb89c3fb358d3f95bbc7753869f5d51e = L.polyline(
+                [[21.146637, 79.08535], [21.148757, 79.101439], [21.174523, 79.121336], [21.181399, 79.10297], [21.169819, 79.08406], [21.15315, 79.070339], [21.107012, 78.978532], [21.118532, 79.044679], [21.110153, 79.059822], [21.126959, 79.063593], [21.146637, 79.08535]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_53aa69b80fe06ed885395e10cbdff2f1);
+        
+</script>
+</html>
