@@ -16,7 +16,10 @@ df = create_features(df)
 
 # Split Data
 y = df["totalOutcome"]
-X = df.drop(["totalOutcome", "transactionTime"], axis=1)
+X = df.drop(
+    ["totalOutcome", "transactionTime", "ATM_ID"],
+    axis=1
+)
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,
